@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+}
+label {
+    width: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+.button {
+    color: blue;
+    background-color: peachpuff;
+    border-radius: 5px;
+   
+}
