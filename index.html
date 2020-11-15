@@ -9,22 +9,39 @@
 </head>
 <body>
     <div class="container">
-        <form name="MyForm" method="post" ectype="text/plain" action="https://formspree.io/bojko2009@meta.ua" method="post">
+        <form action="https://formspree.io/f/xdopddzl" method="POST">
             <p>
-                <label for="name">Name:</label>
-                <input id="name" type="text" placeholder="name" required autofocus>
+                <label>Name:
+                    <input name="Замовник:" type="text" placeholder="name" required autofocus>
+                </label>
             </p>
             <p>
-                <label for="mail">E-mail:</label>
-                <input id="mail" type="email" placeholder="mail" required>
+                <label>Your email:
+                    <input name="email:" type="email" placeholder="email">
+                 </label>
             </p>
             <p>
-                <input class="button" type="submit" value="send">
-                <input class="button" type="reset" value="clear">
+                <label>Your message:
+                    <textarea name="Повідомлення" placeholder="add comment"></textarea>
+                </label>
             </p>
-        </form>
-    </div>
+
+  <!-- your other form fields go here -->
+
+  <button class="button" type="submit">Send</button>
+  <input class="button" type="reset" value="clear">
+</form>
+
+
+
+
+        
+            
+            
     
+    </div>
+
+
 
 
     <script src="index.js"></script>
